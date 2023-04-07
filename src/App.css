@@ -34,6 +34,11 @@
    font-size: 20px;
    font-weight: 500;
 }
+.c-body div button:hover {
+   background-color: #9b65e4;
+   color: white;
+   border: 1px solid #9b65e4;
+}
 .c-body.c2 div button {
    font-size: 16px;
 }
@@ -46,7 +51,7 @@
    font-weight: bold;
 }
 
-.text-col div:nth-child(2) {
+.mid-div {
    border-right: 1px solid #e0def7;
    border-left: 1px solid #e0def7;
 }
@@ -95,4 +100,55 @@ figure::after {
    font-style: normal;
    font-weight: 600;
    color: #322670;
+}
+#selectField {
+   display: inline-block;
+   margin: 0 0 0 auto;
+   /* width: 100%; */
+   padding: 1rem 2rem;
+   background-color: #9b65e4;
+   box-sizing: border-box;
+   border-radius: 10px;
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+}
+.list-con::before {
+   content: "\25BC";
+   transform: rotate(180deg);
+   position: absolute;
+   color: #9b65e4;
+   top: -16px;
+   left: 70%;
+   z-index: 99999;
+}
+.list-con.text-select::before{
+   left: 20%;
+}
+.list {
+   position: relative;
+   width: 300px;
+   overflow: hidden;
+   background-color: white;
+   border: 2px solid #9b65e4;
+   box-shadow: -10px 10px 70px -4px rgba(0, 0, 0, 0.14);
+   border-radius: 10px;
+}
+.list li {
+   width: 100%;
+   cursor: pointer;
+   box-sizing: border-box;
+   border-bottom: 1px solid #f6f5ff;
+   padding: 12px 20px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 23px;
+   color: #322670;
+}
+.list li:hover {
+   background-color: #322670;
+   color: white;
+}
+.hide {
+   display: none;
 }

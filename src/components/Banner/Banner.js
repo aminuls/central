@@ -1,6 +1,7 @@
 import React from "react";
 import banner from "../../assets/banner.png";
 import downArrow from "../../assets/down-arrow.png";
+import Select from "../Select/Select";
 
 const Banner = () => {
    return (
@@ -26,7 +27,7 @@ const Banner = () => {
                         </button>
                      </form>
                      <div className="text-col flex justify-between sm:justify-start flex-wrap gap-3 mt-5 lg:pe-36">
-                        <div className="sm:pe-8">
+                        <div className="sm:pe-8 relative">
                            <p className="flex gap-2 items-center font-medium mb-1">
                               <span>
                                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,14 +71,15 @@ const Banner = () => {
                               </span>
                               Categoría
                            </p>
-                           <h2 className="flex items-center gap-1">
-                              Conciertos
-                              <span>
-                                 <img src={downArrow} className="mt-2" alt="down-arrow" />
-                              </span>
-                           </h2>
+                           <Select title="Conciertos">
+                              <li>Conciertos</li>
+                              <li>Conciertos</li>
+                              <li>Conciertos</li>
+                              <li>Conciertos</li>
+                              <li>Conciertos</li>
+                           </Select>
                         </div>
-                        <div className="sm:px-8">
+                        <div className="sm:px-8 mid-div relative">
                            <p className="flex gap-2 items-center font-medium mb-1">
                               <span>
                                  <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,14 +99,15 @@ const Banner = () => {
                               </span>
                               Ubicación
                            </p>
-                           <h2 className="flex items-center gap-1">
-                              Almería province
-                              <span>
-                                 <img src={downArrow} className="mt-2" alt="down-arrow" />
-                              </span>
-                           </h2>
+                           <Select title="Almería province">
+                              <li>Almería province</li>
+                              <li>Almería province</li>
+                              <li>Almería province</li>
+                              <li>Almería province</li>
+                              <li>Almería province</li>
+                           </Select>
                         </div>
-                        <div className="sm:ps-8">
+                        <div className="sm:ps-8 relative">
                            <p className="flex gap-2 items-center font-medium mb-1">
                               <span>
                                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,12 +133,13 @@ const Banner = () => {
                               </span>
                               Fecha
                            </p>
-                           <h2 className="flex items-center gap-1">
-                              Esta semana
-                              <span>
-                                 <img src={downArrow} className="mt-2" alt="down-arrow" />
-                              </span>
-                           </h2>
+                           <Select title="Esta semana">
+                              <li>Esta semana</li>
+                              <li>Esta semana</li>
+                              <li>Esta semana</li>
+                              <li>Esta semana</li>
+                              <li>Esta semana</li>
+                           </Select>
                         </div>
                      </div>
                   </div>

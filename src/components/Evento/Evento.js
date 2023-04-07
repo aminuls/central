@@ -20,23 +20,21 @@ import images20 from "../../assets/images20.png";
 import images21 from "../../assets/images21.png";
 import images22 from "../../assets/images22.png";
 import images23 from "../../assets/images23.png";
+import Select from "../Select/Select";
 
 const Evento = () => {
    return (
       <div className="mt-48">
-         <div className="flex justify-center sm:justify-between flex-wrap gap-2 items-center mb-14">
+         <div className="flex justify-center sm:justify-between flex-wrap gap-2 items-center mb-14 relative">
             <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Seleccione el evento preferido</h1>
-            <select className="select select-bordered select-field text-white">
-               <option className="hidden" disabled selected>
-                  Order by
-               </option>
-               <option>Destacados</option>
-               <option>Mas Vendidos</option>
-               <option>Mas Recientes</option>
-               <option>Mas Antiguos</option>
-               <option>Alfabeticamente, A-Z</option>
-               <option>Alfabeticamente, Z-A</option>
-            </select>
+            <Select title="Order by" button>
+               <li>Destacados</li>
+               <li>Mas Vendidos</li>
+               <li>Mas Recientes</li>
+               <li>Mas Antiguos</li>
+               <li>Alfabeticamente, A-Z</li>
+               <li>Alfabeticamente, Z-A</li>
+            </Select>
          </div>
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 place-items-center">
             <Cards images={images4}></Cards>
