@@ -28,12 +28,12 @@ const Evento = () => {
          <div className="flex justify-center sm:justify-between flex-wrap gap-2 items-center mb-14 relative">
             <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Seleccione el evento preferido</h1>
             <Select title="Order by" button>
-               <li>Destacados</li>
-               <li>Mas Vendidos</li>
-               <li>Mas Recientes</li>
-               <li>Mas Antiguos</li>
-               <li>Alfabeticamente, A-Z</li>
-               <li>Alfabeticamente, Z-A</li>
+               <li className="options">Destacados</li>
+               <li className="options">Mas Vendidos</li>
+               <li className="options">Mas Recientes</li>
+               <li className="options">Mas Antiguos</li>
+               <li className="options">Alfabeticamente, A-Z</li>
+               <li className="options">Alfabeticamente, Z-A</li>
             </Select>
          </div>
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 place-items-center">

@@ -12,12 +12,12 @@ const Eventos = () => {
             <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Eventos destacados</h1>
             <div className="flex flex-col justify-end items-end relative">
                <Select title="Order by" button>
-                  <li>Destacados</li>
-                  <li>Mas Vendidos</li>
-                  <li>Mas Recientes</li>
-                  <li>Mas Antiguos</li>
-                  <li>Alfabeticamente, A-Z</li>
-                  <li>Alfabeticamente, Z-A</li>
+                  <li className="options">Destacados</li>
+                  <li className="options">Mas Vendidos</li>
+                  <li className="options">Mas Recientes</li>
+                  <li className="options">Mas Antiguos</li>
+                  <li className="options">Alfabeticamente, A-Z</li>
+                  <li className="options">Alfabeticamente, Z-A</li>
                </Select>
             </div>
          </div>

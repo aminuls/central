@@ -3,24 +3,24 @@ import downArrow from "../../assets/down-arrow.png";
 
 const Select = ({ children, title, button }) => {
    const [visibility, setVisibility] = useState(true);
-   const [text, setText] = useState(title);
+   const selectText = document.getElementById("selectText");
+   const options = document.getElementsByClassName("options");
 
    const toggleFunc = () => {
-      const options = document.getElementsByClassName("options");
       setVisibility(!visibility);
-      for (let option of options) {
-         option.onclick = function () {
-            setText(this.innerText);
-         };
-      }
    };
 
+   for (let option of options) {
+      option.onclick = function () {
+         selectText.innerHTML = this.textContent;
+      };
+   }
    return (
-      <div className="cursor-pointer select-none">
+      <div className="cursor-pointer select-none" onClick={toggleFunc}>
          {button ? (
-            <div className="selectField" onClick={toggleFunc}>
+            <div id="selectField">
                <p className="flex gap-1 items-center">
-                  <span>{text}</span>{" "}
+                  <span id="selectText">{title}</span>{" "}
                   <i className={`mt-1 ${visibility && "rotate-180"} transition-all`}>
                      <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.75 6.25L7 1L12.25 6.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -34,9 +34,9 @@ const Select = ({ children, title, button }) => {
                </div>
             </div>
          ) : (
-            <div onClick={toggleFunc}>
-               <h2 className="flex items-center gap-1">
-                  {text}
+            <div className="selectText">
+               <h2 id="selectText" className="flex items-center gap-1">
+                  {title}
                   <span>
                      <img src={downArrow} className={`mt-2 ${visibility && "rotate-180"} transition-all`} alt="downArrow" />
                   </span>

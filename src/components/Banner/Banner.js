@@ -72,11 +72,11 @@ const Banner = () => {
                               Categoría
                            </p>
                            <Select title="Conciertos">
-                              <li>Conciertos</li>
-                              <li>Conciertos</li>
-                              <li>Conciertos</li>
-                              <li>Conciertos</li>
-                              <li>Conciertos</li>
+                              <li className="options">Conciertos</li>
+                              <li className="options">Conciertos</li>
+                              <li className="options">Conciertos</li>
+                              <li className="options">Conciertos</li>
+                              <li className="options">Conciertos</li>
                            </Select>
                         </div>
                         <div className="sm:px-8 mid-div relative">
@@ -100,11 +100,11 @@ const Banner = () => {
                               Ubicación
                            </p>
                            <Select title="Almería province">
-                              <li>Almería province</li>
-                              <li>Almería province</li>
-                              <li>Almería province</li>
-                              <li>Almería province</li>
-                              <li>Almería province</li>
+                              <li className="options">Almería province</li>
+                              <li className="options">Almería province</li>
+                              <li className="options">Almería province</li>
+                              <li className="options">Almería province</li>
+                              <li className="options">Almería province</li>
                            </Select>
                         </div>
                         <div className="sm:ps-8 relative">
@@ -134,11 +134,11 @@ const Banner = () => {
                               Fecha
                            </p>
                            <Select title="Esta semana">
-                              <li>Esta semana</li>
-                              <li>Esta semana</li>
-                              <li>Esta semana</li>
-                              <li>Esta semana</li>
-                              <li>Esta semana</li>
+                              <li className="options">Esta semana</li>
+                              <li className="options">Esta semana</li>
+                              <li className="options">Esta semana</li>
+                              <li className="options">Esta semana</li>
+                              <li className="options">Esta semana</li>
                            </Select>
                         </div>
                      </div>

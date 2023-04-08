@@ -101,7 +101,7 @@ figure::after {
    font-weight: 600;
    color: #322670;
 }
-#selectField {
+.selectField {
    display: inline-block;
    margin: 0 0 0 auto;
    /* width: 100%; */
