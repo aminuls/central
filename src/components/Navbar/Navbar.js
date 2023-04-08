@@ -4,7 +4,7 @@ import calling from "../../assets/Calling.png";
 
 const Navbar = () => {
    return (
-      <div className="fixed top-0 w-full bg-base-100 z-50">
+      <div className="fixed top-0 w-screen bg-base-100 z-50">
          <div class="navbar xl:container xl:mx-auto">
             <div class="navbar-start">
                <label htmlFor="my-drawer" class="btn btn-ghost btn-circle">
