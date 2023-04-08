@@ -1,11 +1,10 @@
 import React from "react";
 import banner from "../../assets/banner.png";
-import downArrow from "../../assets/down-arrow.png";
 import Select from "../Select/Select";
 
 const Banner = () => {
    return (
-      <div className="relative">
+      <div id="top" className="relative">
          <img src={banner} alt="" className="w-full object-cover object-left-top min-h-[80vh]" />
          <div className="sm:container px-1 sm:mx-auto">
             <div className="text-white absolute top-1/2 -translate-y-1/2 banner-text">

@@ -58,6 +58,9 @@ const Evento = () => {
             <Cards images={images22}></Cards>
             <Cards images={images23}></Cards>
          </div>
+         <div className="mt-14 mb-16 py-1">
+            <h2 className="text-[22px] font-semibold text-center load">Load More<i className="text-3xl font-serif dot">....</i></h2>
+         </div>
       </div>
    );
 };
