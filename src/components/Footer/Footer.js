@@ -129,7 +129,9 @@ const Footer = () => {
                   <div>
                      <h2>Método de pago</h2>
                      <div className="mt-6">
-                        <img src={bank_card} alt="card" />
+                        <a href="/">
+                           <img src={bank_card} alt="card" />
+                        </a>
                      </div>
                   </div>
                </div>

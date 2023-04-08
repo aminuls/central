@@ -2,7 +2,7 @@
 /* font-size: calc(10px + 2vmin); */
 /* color: #61dafb; */
 
-html{
+html {
    scroll-behavior: smooth;
 }
 .App {
@@ -188,7 +188,7 @@ figure::after {
    color: #ffffff;
    mix-blend-mode: normal;
 }
-.footer div:nth-child(2) > div ul li, div:nth-child(3) > div ul li {
+.footer div:nth-child(2) > div ul li {
    font-weight: 500;
    font-size: 16px;
    line-height: 38px;
@@ -196,6 +196,11 @@ figure::after {
    mix-blend-mode: normal;
    opacity: 0.7;
 }
-.footer div:nth-child(3) > div ul li{
+.footer div:nth-child(3) > div ul li {
+   font-weight: 500;
+   font-size: 16px;
    line-height: 26px;
+   color: #ffffff;
+   mix-blend-mode: normal;
+   opacity: 0.7;
 }
