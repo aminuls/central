@@ -204,3 +204,26 @@ figure::after {
    mix-blend-mode: normal;
    opacity: 0.7;
 }
+.banner_two {
+   background-image: url("assets/bg.png");
+   background-size: cover;
+   background-position: center;
+}
+.b_two_head p {
+   font-family: "Plus Jakarta Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   color: #fafafa;
+   opacity: 0.7;
+}
+.b_two_head h3 {
+   /* font-family: "Roboto"; */
+   margin-top: 14px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 38px;
+   color: #ffffff;
+}
