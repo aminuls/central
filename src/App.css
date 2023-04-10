@@ -13,9 +13,7 @@
       display: block;
    }
 }
-html {
-   scroll-behavior: smooth;
-}
+
 .App {
    /* text-align: center; */
 }
@@ -396,5 +394,79 @@ input[type="number"]::-webkit-outer-spin-button {
 .selectField.btn_border {
    background: #ffffff;
    border: 2px solid #9b65e4;
-   color: #9B65E4;
+   color: #9b65e4;
+}
+.datos {
+   border-bottom: 2px solid #e5ecfe;
+}
+.datos h2 {
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 40px;
+   color: #322670;
+}
+.datos button {
+   background: #322670;
+   font-style: normal;
+   max-width: 317px;
+   border-radius: 6px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 32px;
+   color: #ffffff;
+   text-align: start;
+   padding: 12px 16px;
+}
+.datos_input input[type="text"] {
+   height: 58px;
+   box-sizing: border-box;
+   background: #f9fafb;
+   border-radius: 4px;
+   font-family: "Plus Jakarta Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   text-transform: capitalize;
+   color: #7b788a;
+}
+.datos_input div:last-child {
+   font-family: "Plus Jakarta Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   text-transform: capitalize;
+   color: #7b788a;
+}
+#male_label,
+#female_label {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+   color: #9b65e4;
+}
+.coupon_resume div:nth-child(1) h3 {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 28px;
+   color: #322670;
+}
+.check_label {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #424245;
+}
+.coupon_button.cancel {
+   background: #f9fafb;
+   border: 1px solid #e5ecfe;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 23px;
+   text-align: center;
+   color: #424245;
 }

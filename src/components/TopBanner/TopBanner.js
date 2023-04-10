@@ -3,7 +3,7 @@ import image_bt from "../../assets/image_bt.png";
 
 const TopBanner = () => {
    return (
-      <div className="banner_two">
+      <div id="top" className="banner_two">
          <div>
             <div className="lg:container lg:mx-auto pt-40 pb-16 px-2 lg:pt-[202px] lg:pb-[100px] flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-y-5">
                <div className="b_two_head text-center lg:text-start">
