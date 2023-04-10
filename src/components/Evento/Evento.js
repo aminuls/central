@@ -25,7 +25,7 @@ import Select from "../Select/Select";
 const Evento = () => {
    return (
       <div className="mt-48">
-         <div className="flex justify-center lg:justify-between flex-wrap gap-2 items-center mb-14 relative">
+         <div className="flex justify-center lg:justify-between flex-wrap gap-y-3 items-center mb-14 relative">
             <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Seleccione el evento preferido</h1>
             <Select title="Order by" button>
                <li className="options">Destacados</li>

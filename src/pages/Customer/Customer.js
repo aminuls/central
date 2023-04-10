@@ -31,21 +31,21 @@ const Customer = () => {
                            <input type="text" placeholder="Código Postal*" className="input w-full" />
                            <div className="flex flex-wrap gap-4 items-center">
                               <p>Selección genero</p>
-                              <div className="flex">
+                              <div className="flex flex-row-reverse">
                                  <div className="form-control">
                                     <label className="label cursor-pointer gap-2">
-                                       <span id="male_label" className="label-text">
-                                          Male
-                                       </span>
                                        <input type="radio" name="radio-10" className="radio checked:bg-[#9b65e4]" checked />
+                                       <span id="female_label" className="label-text">
+                                          Female
+                                       </span>
                                     </label>
                                  </div>
                                  <div className="form-control">
                                     <label className="label cursor-pointer gap-2">
-                                       <span id="female_label" className="label-text">
-                                          Female
-                                       </span>
                                        <input type="radio" name="radio-10" className="radio checked:bg-[#9b65e4]" checked />
+                                       <span id="male_label" className="label-text">
+                                          Male
+                                       </span>
                                     </label>
                                  </div>
                               </div>

@@ -6,13 +6,13 @@ const Banner = () => {
    return (
       <div id="top" className="relative">
          <img src={banner} alt="" className="w-full object-cover object-left-top min-h-[80vh]" />
-         <div className="sm:container px-1 sm:mx-auto">
+         <div className="sm:container sm:mx-auto">
             <div className="text-white absolute top-1/2 -translate-y-1/2 banner-text">
-               <div className="flex flex-wrap items-baseline gap-3">
+               <div className="flex flex-wrap items-baseline gap-3 mx-1">
                   <h2 className="mb-6">Encuentra tus eventos</h2>
                   <hr className="flex-grow hidden sm:block"></hr>
                </div>
-               <div className="bg-white rounded-2xl p-6 mx-1 sm:mx-0">
+               <div className="bg-white rounded-2xl mx-1 p-6 sm:mx-0">
                   <div>
                      <form action="" className="flex flex-wrap justify-center gap-6 banner-form">
                         <div className="w-full sm:w-0 sm:flex-grow">

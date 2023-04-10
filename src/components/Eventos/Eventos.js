@@ -8,7 +8,7 @@ import Select from "../Select/Select";
 const Eventos = () => {
    return (
       <div className="mt-24">
-         <div className="flex flex-col sm:flex-row justify-center sm:justify-between flex-wrap gap-2 items-center mb-14">
+         <div className="flex flex-col sm:flex-row justify-center sm:justify-between flex-wrap gap-y-3 items-center mb-14">
             <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Eventos destacados</h1>
             <div className="flex flex-col justify-end items-end relative">
                <Select title="Order by" button>

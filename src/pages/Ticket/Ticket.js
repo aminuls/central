@@ -217,7 +217,7 @@ const Ticket = () => {
          {/*  */}
          {/*  */}
          <div className="lg:container lg:mx-auto mb-[100px]">
-            <div className="flex justify-center sm:justify-between flex-wrap gap-2 items-center mb-14 relative">
+            <div className="flex justify-center sm:justify-between flex-wrap gap-y-3 items-center mb-14 relative">
                <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Próximos Eventos</h1>
                <Select title="Order by" button extra_class="btn_border">
                   <li className="options">Destacados</li>

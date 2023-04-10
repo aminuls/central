@@ -23,7 +23,7 @@ const TopBanner = () => {
             </div>
          </div>
          <div className="lg:container lg:mx-auto">
-            <div className="mt-[100px] mb-[188px] grid grid-cols-1 lg:grid-cols-2 gap-10 px-1 lg:px-0">
+            <div className="mt-[100px] mb-[188px] grid grid-cols-1 lg:grid-cols-2 gap-10 px-2 lg:px-0">
                <div>
                   <img className="h-full w-full" src={image_bt} alt="image_bt" />
                </div>
