@@ -5,19 +5,19 @@ const TopBanner = () => {
    return (
       <div className="banner_two">
          <div>
-            <div className="lg:container lg:mx-auto pt-40 pb-16 px-2 lg:pt-[202px] lg:pb-[100px] flex flex-col md:flex-row justify-center md:justify-between items-center gap-y-5">
+            <div className="lg:container lg:mx-auto pt-40 pb-16 px-2 lg:pt-[202px] lg:pb-[100px] flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-y-5">
                <div className="b_two_head text-center lg:text-start">
                   <p>From 15 March to June 29-2023</p>
                   <h3>Revelado a través del querido caminar abortivo</h3>
                </div>
                <div>
-                  <button className="btn h-[54px] btn-outline text-white gap-2 text-lg font-semibold">
+                  <button className="btn h-[54px] btn-outline text-white gap-2 text-lg font-semibold flex flex-nowrap">
                      <i>
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <path d="M6.25 12.25L1 7L6.25 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                      </i>{" "}
-                     De vuelta a las compras
+                     <span className="whitespace-nowrap">De vuelta a las compras</span>
                   </button>
                </div>
             </div>

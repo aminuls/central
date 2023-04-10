@@ -341,3 +341,60 @@ input[type="number"]::-webkit-outer-spin-button {
    background: #f9fafb;
    border-bottom: 1px solid #e5ecfe;
 }
+.coupon_container {
+   background: #ffffff;
+   border: 1px solid #e5ecfe;
+   border-radius: 14px;
+}
+.coupon h3 {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   color: #322670;
+}
+.resume_name {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #7b788a;
+}
+.resume_value {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+   color: #322670;
+}
+.resume_value.discount {
+   color: #de3618;
+}
+.coupon.second > div {
+   border-bottom: 2px solid #e5ecfe;
+}
+.coupon_button {
+   background: #9b65e4;
+   border-radius: 6px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 23px;
+   text-align: center;
+   color: #ffffff;
+   padding: 16px auto;
+}
+.coupon_last h2 {
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 28px;
+   color: #322670;
+}
+.artist p {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+   color: #424245;
+}
+.selectField.btn_border {
+   background: #ffffff;
+   border: 2px solid #9b65e4;
+   color: #9B65E4;
+}

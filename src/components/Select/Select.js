@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import downArrow from "../../assets/down-arrow.png";
 
-const Select = ({ children, title, button }) => {
+const Select = ({ children, title, button, extra_class }) => {
    const [visibility, setVisibility] = useState(true);
    const [text, setText] = useState(title);
 
@@ -31,12 +31,12 @@ const Select = ({ children, title, button }) => {
    return (
       <div className="cursor-pointer select-none">
          {button ? (
-            <div className="selectField test" onClick={toggleFunc}>
+            <div className={`selectField test ${extra_class}`} onClick={toggleFunc}>
                <p className="flex gap-1 items-center test">
                   <span className="test">{text}</span>{" "}
                   <i className={`mt-1 ${visibility && "rotate-180"} transition-all test`}>
                      <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.75 6.25L7 1L12.25 6.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M1.75 6.25L7 1L12.25 6.25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                      </svg>
                   </i>
                </p>
