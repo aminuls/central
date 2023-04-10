@@ -29,23 +29,25 @@ const Customer = () => {
                         <input type="text" placeholder="Teléfono*" className="input w-full" />
                         <div className="grid md:grid-cols-2 gap-7">
                            <input type="text" placeholder="Código Postal*" className="input w-full" />
-                           <div className="flex gap-4 items-center">
+                           <div className="flex flex-wrap gap-4 items-center">
                               <p>Selección genero</p>
-                              <div className="form-control">
-                                 <label className="label cursor-pointer gap-2">
-                                    <span id="male_label" className="label-text">
-                                       Male
-                                    </span>
-                                    <input type="radio" name="radio-10" className="radio checked:bg-[#9b65e4]" checked />
-                                 </label>
-                              </div>
-                              <div className="form-control">
-                                 <label className="label cursor-pointer gap-2">
-                                    <span id="female_label" className="label-text">
-                                       Female
-                                    </span>
-                                    <input type="radio" name="radio-10" className="radio checked:bg-[#9b65e4]" checked />
-                                 </label>
+                              <div className="flex">
+                                 <div className="form-control">
+                                    <label className="label cursor-pointer gap-2">
+                                       <span id="male_label" className="label-text">
+                                          Male
+                                       </span>
+                                       <input type="radio" name="radio-10" className="radio checked:bg-[#9b65e4]" checked />
+                                    </label>
+                                 </div>
+                                 <div className="form-control">
+                                    <label className="label cursor-pointer gap-2">
+                                       <span id="female_label" className="label-text">
+                                          Female
+                                       </span>
+                                       <input type="radio" name="radio-10" className="radio checked:bg-[#9b65e4]" checked />
+                                    </label>
+                                 </div>
                               </div>
                            </div>
                         </div>
