@@ -12,7 +12,7 @@ const Banner = () => {
                   <h2 className="mb-6">Encuentra tus eventos</h2>
                   <hr className="flex-grow hidden sm:block"></hr>
                </div>
-               <div className="bg-white rounded-2xl p-6">
+               <div className="bg-white rounded-2xl p-6 mx-1 sm:mx-0">
                   <div>
                      <form action="" className="flex flex-wrap justify-center gap-6 banner-form">
                         <div className="w-full sm:w-0 sm:flex-grow">

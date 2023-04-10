@@ -17,8 +17,8 @@ const Footer = () => {
                   </div>
                </a>
             </div>
-            <div className="mt-[70px] mb-[110px] flex flex-col lg:flex-row gap-x-[90px] gap-y-3 footer">
-               <div>
+            <div className="mt-[70px] mb-[110px] flex flex-col lg:flex-row gap-x-[90px] gap-y-3 footer items-center lg:items-start">
+               <div className="flex flex-col items-center lg:items-start">
                   <a href="/">
                      <img src={footer} alt="footer-logo" />
                   </a>
@@ -81,7 +81,7 @@ const Footer = () => {
                      </a>
                   </div>
                </div>
-               <div>
+               <div className="text-center lg:text-start">
                   <h2>Taquilla Central</h2>
                   <div className="mt-6">
                      <ul className="flex flex-col">
@@ -94,7 +94,7 @@ const Footer = () => {
                      </ul>
                   </div>
                </div>
-               <div>
+               <div className="text-center lg:text-start">
                   <h2>Datos de contacto.</h2>
                   <div className="mt-6">
                      <ul className="flex flex-col gap-y-[16px]">
@@ -115,7 +115,7 @@ const Footer = () => {
                   </div>
                </div>
                <div>
-                  <div>
+                  <div className="text-center lg:text-start">
                      <h2>Descarga la app</h2>
                      <div className="mt-6 flex flex-wrap gap-5 mb-[60px]">
                         <a href="https://play.google.com/">
@@ -126,7 +126,7 @@ const Footer = () => {
                         </a>
                      </div>
                   </div>
-                  <div>
+                  <div className="text-center lg:text-start">
                      <h2>Método de pago</h2>
                      <div className="mt-6">
                         <a href="/">

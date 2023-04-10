@@ -3,9 +3,9 @@ import React from "react";
 
 const Card = ({image}) => {
    return (
-      <div className="card rounded-xl w-full sm:w-96 md:w-[26rem] bg-base-100 shadow-xl">
+      <div className="card rounded-xl px-2 md:px-0 w-full sm:w-96 lg:w-[26rem] bg-base-100 shadow-xl">
          <figure className="relative">
-            <img src={image} alt="images" />
+            <img src={image} className="w-full" alt="images" />
             <div className="absolute top-4 left-4 glass-blur z-10 p-2">
                <p className="flex items-center font-medium text-lg text-white">
                   <svg className="me-1" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
