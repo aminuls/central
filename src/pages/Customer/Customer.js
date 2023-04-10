@@ -1,7 +1,5 @@
 import React from "react";
 import TopBanner from "../../components/TopBanner/TopBanner";
-import entra from "../../assets/entra.png";
-import bonos from "../../assets/bonos.png";
 import arlene from "../../assets/arlene.png";
 import darlene from "../../assets/darlene.png";
 import henry from "../../assets/henry.png";
