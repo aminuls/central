@@ -27,14 +27,16 @@ const Evento = () => {
       <div className="mt-48">
          <div className="flex justify-center lg:justify-between flex-wrap gap-y-3 items-center mb-14 relative">
             <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Seleccione el evento preferido</h1>
-            <Select title="Order by" button>
-               <li className="options">Destacados</li>
-               <li className="options">Mas Vendidos</li>
-               <li className="options">Mas Recientes</li>
-               <li className="options">Mas Antiguos</li>
-               <li className="options">Alfabeticamente, A-Z</li>
-               <li className="options">Alfabeticamente, Z-A</li>
-            </Select>
+            <div className="flex flex-col justify-end items-end relative">
+               <Select title="Order by" button>
+                  <li className="options">Destacados</li>
+                  <li className="options">Mas Vendidos</li>
+                  <li className="options">Mas Recientes</li>
+                  <li className="options">Mas Antiguos</li>
+                  <li className="options">Alfabeticamente, A-Z</li>
+                  <li className="options">Alfabeticamente, Z-A</li>
+               </Select>
+            </div>
          </div>
          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 place-items-center">
             <Cards images={images4}></Cards>

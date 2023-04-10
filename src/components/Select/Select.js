@@ -40,7 +40,7 @@ const Select = ({ children, title, button, extra_class }) => {
                      </svg>
                   </i>
                </p>
-               <div className="absolute right-0 top-[60px] z-50">
+               <div className="absolute -right-1/3 sm:right-0 top-[60px] z-50">
                   <div className={`list-con relative ${visibility && " hide"} select-none`}>
                      <ul className="list mt-2">{children}</ul>
                   </div>

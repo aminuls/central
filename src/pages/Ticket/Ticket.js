@@ -7,10 +7,10 @@ import darlene from "../../assets/darlene.png";
 import henry from "../../assets/henry.png";
 import Select from "../../components/Select/Select";
 import Cards from "../../components/Cards/Cards";
-import images20 from '../../assets/images20.png';
-import images21 from '../../assets/images21.png';
-import images22 from '../../assets/images22.png';
-import images23 from '../../assets/images23.png';
+import images20 from "../../assets/images20.png";
+import images21 from "../../assets/images21.png";
+import images22 from "../../assets/images22.png";
+import images23 from "../../assets/images23.png";
 
 const Ticket = () => {
    return (
@@ -160,8 +160,8 @@ const Ticket = () => {
                   <div className="coupon">
                      <h3>Tiene un cupón?</h3>
                      <div className="form-control mt-[18px]">
-                        <div className="input-group flex-wrap justify-start lg:justify-center xl:justify-start gap-y-2">
-                           <input type="text" placeholder="Código promocional" className="input" />
+                        <div className="input-group flex-nowrap justify-start lg:justify-center xl:justify-start gap-y-2">
+                           <input type="text" placeholder="Código promocional" className="input w-full" />
                            <button className="btn normal-case mix-blend-normal bg-[#322670]">Aplicar</button>
                         </div>
                      </div>
@@ -217,18 +217,20 @@ const Ticket = () => {
          {/*  */}
          {/*  */}
          <div className="lg:container lg:mx-auto mb-[100px]">
-            <div className="flex justify-center sm:justify-between flex-wrap gap-y-3 items-center mb-14 relative">
+            <div className="flex justify-center sm:justify-between flex-wrap gap-y-3 gap-2 items-center mb-14 relative">
                <h1 className="sect-title text-4xl md:text-5xl text-center sm:text-start">Próximos Eventos</h1>
-               <Select title="Order by" button extra_class="btn_border">
-                  <li className="options">Destacados</li>
-                  <li className="options">Mas Vendidos</li>
-                  <li className="options">Mas Recientes</li>
-                  <li className="options">Mas Antiguos</li>
-                  <li className="options">Alfabeticamente, A-Z</li>
-                  <li className="options">Alfabeticamente, Z-A</li>
-               </Select>
+               <div className="flex flex-col justify-end items-end relative">
+                  <Select title="Order by" button extra_class="btn_border">
+                     <li className="options">Destacados</li>
+                     <li className="options">Mas Vendidos</li>
+                     <li className="options">Mas Recientes</li>
+                     <li className="options">Mas Antiguos</li>
+                     <li className="options">Alfabeticamente, A-Z</li>
+                     <li className="options">Alfabeticamente, Z-A</li>
+                  </Select>
+               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-7 place-items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 place-items-center">
                <Cards images={images20}></Cards>
                <Cards images={images21}></Cards>
                <Cards images={images22}></Cards>
